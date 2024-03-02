@@ -16,6 +16,8 @@ code {
   background: rgb(91, 137, 16);
   align-items: center;
   height: 120px;
+  position: sticky;
+  top: 0;
 }
 .nav-logo{
   height: 120px;
