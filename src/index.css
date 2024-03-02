@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header{
+  display: flex;
+  background: rgb(91, 137, 16);
+  align-items: center;
+  height: 120px;
+}
+.nav-logo{
+  height: 120px;
+  width: 190px;
+  padding-right: 40px;
+}
+
+.slogan{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(243, 178, 117);
+  font-size: 40px;
+  margin: 0 auto;
+}
+
+.btn{
+  margin-left: auto;
+  margin-right: 15px;
+  background-color: yellow;
+  font-size: 20px;
+  padding: 7px;
+  border-radius: 10px;
+  height: 40px;
+}
+
+.dropdown-menu{
+  font-size: large;
+  margin-right: 10px;
+  
+}
+.dropdown-menu li a{
+  color: greenyellow;
+}
+.service {
+  position: relative; 
+  height: 100vh; 
+}
+.service-img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  text-align: center;
+}
+
+.service-content {
+  position: absolute; 
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  color: rgb(96, 4, 4); 
+  text-align: center; 
+}
+.service-content h1{
+  font-size: 40px;
+}
+
+.service-content h2{
+  font-size: 30px;
+}
